@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header .image-matrix {
   width: 100%;
 }
 .header .more-inf {
@@ -37,15 +37,15 @@ body {
 .task-wrapper {
  display: flex;
 }
-ul {
+.task-block {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.task-block__item,
+.title {
   list-style: none;
 }
-input,
+.input,
 button{
   outline: none;
 }
